@@ -1,12 +1,6 @@
 {
   "version": 2,
   "public": true,
-  "routes": [
-    {
-      "src": "/banner.svg",
-      "dest": "/public/banner.svg"
-    }
-  ],
   "headers": [
     {
       "source": "*.svg",
