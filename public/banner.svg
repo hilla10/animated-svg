@@ -93,9 +93,9 @@
     <animate attributeName="opacity" values="0;1" dur="1.5s" fill="freeze" />
   </text>
 
-  <!-- Waving Hand Emoji -->
-  <g transform="translate(700,50)">
-    <text font-size="42" fill="url(#text-gradient)">👋</text>
+  <!-- Waving Hand Emoji in bottom-left under the border -->
+  <g transform="translate(20,135)"> <!-- Adjusted position -->
+    <text  x="15px" y="50%" font-size="36" fill="url(#text-gradient)">👋</text>
     <animateTransform attributeName="transform" type="rotate"
                       from="0 0 0" to="15 0 0" dur="1s"
                       repeatCount="indefinite" values="0;15;0" keyTimes="0;0.5;1"/>
