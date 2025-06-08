@@ -3,7 +3,7 @@
   "public": true,
   "headers": [
     {
-      "source": "*.svg",
+      "source": "/(.*)\\.svg",
       "headers": [
         {
           "key": "Content-Type",
